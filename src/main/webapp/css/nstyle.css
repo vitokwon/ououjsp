@@ -1,0 +1,32 @@
+table{
+	border: 2px solid #ccc;
+}
+tr,td{
+	border: 1px solid #ccc;;
+	border-collapse: collapse;
+}
+table,tar,td,th{
+	padding: 5px;
+}
+table.twidth{
+	width: 600px;
+}
+caption {
+	background-color: #ccc;
+	hight: 20px;
+	padding: 10px 0 ;
+	font-family: "Arial";
+	font-weight: bold;
+	color: #898989;
+	/* word-spacing: 5px; */
+	letter-spacing: 5px;
+	
+}
+#content{
+	border: 1px solid #ccc;
+	height: 100px;
+	font-size: 15px;
+}
+.left{
+	text-align: left;
+}
