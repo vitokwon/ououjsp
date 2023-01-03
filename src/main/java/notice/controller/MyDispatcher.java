@@ -33,7 +33,7 @@ public class MyDispatcher extends HttpServlet{
 		try {
 			if(com.equals("/customer/noticeDetail.do")){
 //				controller1.execute(request,response);
-				ncontroller=new NoticeController();
+				ncontroller=new NoticeDetailController();
 			}else if(com.equals("/customer/noticeEdit.do")){
 //				controller2.execute(request,response);
 				ncontroller=new NoticeEditController();
